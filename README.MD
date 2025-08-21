@@ -1,16 +1,16 @@
-## Example which fails orks import-x/resolver
+## Example which fails with import-x/resolver
 
 ```bash
 pnpm run lint-bug
 ````
 
-## Example which fails import-x/resolver-next
+## Example which fails with import-x/resolver-next
 
 ```bash
 pnpm run lint-next
 ````
 
-## Example which works import-x/resolver
+## Example which works with import-x/resolver
 
 ```bash
 pnpm run lint-work

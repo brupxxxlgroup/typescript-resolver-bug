@@ -3,8 +3,9 @@
   "version": "1.0.0",
   "author": "brupxxxlgroup",
   "scripts": {
-    "lint-bug": "eslint -c eslint.config.bug.js  foo.ts",
-    "lint-work": "eslint -c eslint.config.work.js  foo.ts"
+    "lint-bug": "eslint -c eslint.config.bug.js   ./src/foo.ts",
+    "lint-work": "eslint -c eslint.config.work.js ./src/foo.ts",
+    "lint-next": "eslint -c eslint.config.next.js ./src/foo.ts"
   },
   "devDependencies": {
     "@eslint/js": "9.x",

@@ -15,3 +15,9 @@ pnpm run lint-next
 ```bash
 pnpm run lint-work
 ````
+
+## Example which works with import-x/resolver-next resolving lodash
+
+```bash
+pnpm run lint-lodash
+````

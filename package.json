@@ -5,7 +5,11 @@
   "scripts": {
     "lint-bug": "eslint -c eslint.config.bug.js   ./src/foo.ts",
     "lint-work": "eslint -c eslint.config.work.js ./src/foo.ts",
-    "lint-next": "eslint -c eslint.config.next.js ./src/foo.ts"
+    "lint-next": "eslint -c eslint.config.next.js ./src/foo.ts",
+    "lint-lodash": "eslint -c eslint.config.next.js ./src/lodash.ts"
+  },
+  "dependencies": {
+    "lodash": "4.17.21"
   },
   "devDependencies": {
     "@eslint/js": "9.x",

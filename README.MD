@@ -7,7 +7,7 @@ pnpm run lint-bug
 ## Example which fails import-x/resolver-next
 
 ```bash
-pnpm run lint-work
+pnpm run lint-next
 ````
 
 ## Example which works import-x/resolver
